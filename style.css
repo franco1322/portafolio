@@ -440,7 +440,7 @@ display: none;
   padding-left: 1.5rem;
   margin-top: 40px;
   display: flex;
-  
+  flex-direction: column;
 }
 
 
@@ -722,35 +722,8 @@ textarea {
   .skills-charts {
     margin-right: 20%;
   }
-  #myCanvasContainer {
-    position: relative;
-    width: 500px;
-    height: 500px;
-  }
-  
-  /* media query for blog section */
-  .section-blog {
-    width: 90%;
-    margin: 100px auto 0;
-  }
-  .section-blog .fake-big-2 {
-    font-size: 25rem;
-    top: -270px;
-  }
-  .blog-articles {
-    width: 90%;
-    margin: 0 0 0 auto;
-    flex-flow: row wrap;
-  }
-  .post-articles {
-    width: 320px;
-    height: 270px;
-  }
-  .blog-post-title h5 a {
-    font-size: 1.7rem;
-    line-height: 2rem;
-  }
 
+  
   /* section contact */
   .contact-section {
     width: 100%;
